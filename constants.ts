@@ -12,25 +12,25 @@ export const TEAM_MEMBERS = [
     {
         name: "William Lyons | Founder",
         role: "Development",
-        img: "/William.jpeg", // Generic: Coding/Tech
+        img: "/William.jpg", // Generic: Coding/Tech
         linkedin: "https://www.linkedin.com/in/william-lyons-eekual/"
     },
     {
         name: "Dr. Maximilian Bock",
         role: "CEO",
-        img: "/Max.jpeg", // Generic: Architecture/Structure
+        img: "/Max.jpg", // Generic: Architecture/Structure
         linkedin: "https://www.linkedin.com/in/m-bock/"
     },
     {
         name: "Stephan Karmann",
         role: "Production",
-        img: "/Stephan.jpeg", // Generic: Machinery
+        img: "/Stephan.jpg", // Generic: Machinery
         linkedin: "https://www.linkedin.com/in/stephan-karmann/"
     },
     {
         name: "Roderich Körner-Rehn",
         role: "CRO",
-        img: "/Roddy.jpeg", // Generic: Analytics/Data
+        img: "/Roddy.jpg", // Generic: Analytics/Data
         linkedin: "https://www.linkedin.com/in/rodkoerner/"
     }
 ];
