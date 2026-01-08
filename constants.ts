@@ -30,7 +30,7 @@ export const TEAM_MEMBERS = [
     {
         name: "Roderich Körner-Rehn",
         role: "CRO",
-        img: "/Roddy.jpeg", // Generic: Analytics/Data
+        img: "/Roddy.jpg", // Generic: Analytics/Data
         linkedin: "https://www.linkedin.com/in/rodkoerner/"
     }
 ];
