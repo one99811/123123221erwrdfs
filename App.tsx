@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { OneLogo } from './components/Logo';
+import { OneLogo } from './component/Logo';
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 import { REVENUE_DATA, TEAM_MEMBERS } from './constants';
 import { ArrowUp, ArrowDown, Quote, Building2, Factory, Users, ArrowRight, Footprints, Trophy, Zap, ShoppingBag, Linkedin, Mail, Bot, Leaf, ChevronDown } from 'lucide-react';
