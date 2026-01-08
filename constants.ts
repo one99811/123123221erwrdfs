@@ -12,25 +12,25 @@ export const TEAM_MEMBERS = [
     {
         name: "William Lyons | Founder",
         role: "Development",
-        img: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=400&h=400", // Generic: Coding/Tech
+        img: "/William.jpeg", // Generic: Coding/Tech
         linkedin: "https://www.linkedin.com/in/william-lyons-eekual/"
     },
     {
         name: "Dr. Maximilian Bock",
         role: "CEO",
-        img: "https://images.unsplash.com/photo-1486406140526-9183a6d56f54?auto=format&fit=crop&w=400&h=400", // Generic: Architecture/Structure
+        img: "/Max.jpeg", // Generic: Architecture/Structure
         linkedin: "https://www.linkedin.com/in/m-bock/"
     },
     {
         name: "Stephan Karmann",
         role: "Production",
-        img: "https://images.unsplash.com/photo-1581092335397-9583eb92d232?auto=format&fit=crop&w=400&h=400", // Generic: Machinery
+        img: "/Stephan.jpeg", // Generic: Machinery
         linkedin: "https://www.linkedin.com/in/stephan-karmann/"
     },
     {
         name: "Roderich Körner-Rehn",
         role: "CRO",
-        img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=400&h=400", // Generic: Analytics/Data
+        img: "/Roddy.jpeg", // Generic: Analytics/Data
         linkedin: "https://www.linkedin.com/in/rodkoerner/"
     }
 ];
