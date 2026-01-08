@@ -8,11 +8,6 @@ export const REVENUE_DATA = [
   { period: '2028 H2', Orthotic: 17.5, Sports: 22.5, Runners: 15, Tote: 5 },
 ];
 
-export const PIE_DATA = [
-  { name: 'Pre-Revenue CLA', value: 500000, fill: '#E30613' },
-  { name: 'Post-Rev Equity', value: 4500000, fill: '#8B0000' },
-];
-
 export const TEAM_MEMBERS = [
     {
         name: "William Lyons | Founder",
