@@ -809,6 +809,7 @@ const FinancialsSlide = () => {
                             <Tooltip 
                                 contentStyle={{ borderRadius: '16px', border: 'none', boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.1)', padding: '16px' }}
                                 itemStyle={{ padding: '4px 0' }}
+                                formatter={(value: number) => [`€${value}M`]}
                             />
                             
                             {series.map((s) => (
