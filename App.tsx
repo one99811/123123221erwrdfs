@@ -338,7 +338,7 @@ const DiscoverDesignInstructSlide = () => (
             <p className="text-sm md:text-lg mb-4 text-right text-gray-400">robots to produce overnight using minimal resources</p>
           </div>
           <div className="absolute inset-0 opacity-30 group-hover:opacity-50 transition-opacity duration-700">
-             <img src="/attached_assets/stock_images/industrial_robot_arm_78298320.jpg" alt="Advanced Manufacturing" className="object-cover w-full h-full grayscale" />
+             <img src="https://images.unsplash.com/photo-1618294422395-a3209a18997c?q=80&w=2168&auto=format&fit=crop&w=800&q=80" alt="Advanced Manufacturing" className="object-cover w-full h-full grayscale" />
           </div>
         </div>
       </div>
