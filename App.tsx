@@ -137,10 +137,9 @@ const HeroSlide = () => (
           <h1 className="text-3xl md:text-6xl font-sans tracking-wide text-center mt-4 text-brand-dark">
             SELFWEAR™ for every <span className="font-bold">ONE</span>
           </h1>
-      </div>
-      
-      <div className="absolute bottom-8 animate-bounce">
-          <ChevronDown className="w-8 h-8 text-gray-400" />
+          <div className="mt-12 animate-bounce">
+              <ChevronDown className="w-8 h-8 text-gray-400" />
+          </div>
       </div>
     </div>
   </SlideWrapper>
