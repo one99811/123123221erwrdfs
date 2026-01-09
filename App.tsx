@@ -762,8 +762,8 @@ const MarketOpportunitySlide = () => {
 const FinancialsSlide = () => {
     // Configuration for the data series
     const series = [
-        { key: "Orthotic", color: "#E30613", icon: Footprints, label: "Orthotic Insoles", sub: "love work signed: €20 per sale" },
-        { key: "Sports", color: "#F97316", icon: Trophy, label: "Sports Insole", sub: "negotiation: €20-100 per sale" },
+        { key: "Orthotic", color: "#E30613", icon: Footprints, label: "Orthotic Insoles", sub: "Laufwerk signed: €20 per sale" },
+        { key: "Sports", color: "#F97316", icon: Trophy, label: "Sports Insole", sub: "In negotiation €20-100 per sale" },
         { key: "Runners", color: "#3B82F6", icon: Zap, label: "Runner Insoles", sub: "20% of list price" },
         { key: "Tote", color: "#10B981", icon: ShoppingBag, label: "Tote Bags", sub: "20-30% of list price" },
     ];
