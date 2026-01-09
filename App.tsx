@@ -760,6 +760,7 @@ const MarketOpportunitySlide = () => {
 };
 
 const FinancialsSlide = () => {
+    const [hoveredSeries, setHoveredSeries] = useState<string | null>(null);
     // Configuration for the data series
     const series = [
         { key: "Orthotic", color: "#E30613", icon: Footprints, label: "Orthotic Insoles", sub: "Laufwerk signed: €20 per sale" },
@@ -820,7 +821,9 @@ const FinancialsSlide = () => {
                                     stackId="1" 
                                     stroke={s.color} 
                                     fill={`url(#color${s.key})`} 
-                                    strokeWidth={3}
+                                    strokeWidth={hoveredSeries === s.key ? 6 : 3}
+                                    strokeOpacity={hoveredSeries && hoveredSeries !== s.key ? 0.3 : 1}
+                                    fillOpacity={hoveredSeries && hoveredSeries !== s.key ? 0.1 : 0.6}
                                     animationDuration={2000} 
                                 />
                             ))}
@@ -831,7 +834,12 @@ const FinancialsSlide = () => {
                 {/* Legend / Key with Icons */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4 mt-8">
                     {series.map((s) => ( 
-                        <div key={s.key} className="flex items-center gap-2 md:gap-4 bg-white p-2 md:p-4 rounded-2xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer group">
+                        <div 
+                            key={s.key} 
+                            className={`flex items-center gap-2 md:gap-4 bg-white p-2 md:p-4 rounded-2xl border transition-all duration-300 hover:-translate-y-1 cursor-pointer group ${hoveredSeries === s.key ? 'border-brand-red shadow-lg ring-1 ring-brand-red/20' : 'border-gray-100 shadow-sm'}`}
+                            onMouseEnter={() => setHoveredSeries(s.key)}
+                            onMouseLeave={() => setHoveredSeries(null)}
+                        >
                             <div className="p-2 md:p-3 rounded-xl shadow-inner group-hover:scale-110 transition-transform" style={{ backgroundColor: `${s.color}15`, color: s.color }}>
                                 <s.icon size={20} className="md:w-6 md:h-6" strokeWidth={2.5} />
                             </div>
