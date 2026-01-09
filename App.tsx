@@ -922,6 +922,7 @@ function App() {
       <FinancialsSlide />
       <TeamSlide />
       <ContactSlide />
+      <Analytics />
     </div>
   );
 }
