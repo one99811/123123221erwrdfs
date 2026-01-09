@@ -191,8 +191,8 @@ const PlatformSlide = () => (
     <div className="w-full max-w-7xl flex flex-col items-center z-10 py-8">
         {/* Header */}
         <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-16 max-w-5xl leading-tight text-white/90">
-            ONE is building a B2B AI(M)-aaS* Platform to disrupt how<br className="hidden md:block"/>
-            fashion is designed, sold, made and recycled.
+            ONE transforms a loss making supply chain<br className="hidden md:block"/>
+            to a circular profit-only machinery
         </h2>
 
         <div className="flex flex-col lg:flex-row w-full items-center justify-center gap-8 lg:gap-16">
