@@ -306,7 +306,8 @@ const DiscoverDesignInstructSlide = () => (
   <SlideWrapper id="solution" className="bg-white p-6 md:p-16">
     <div className="w-full h-full flex flex-col py-8">
       <h2 className="text-2xl md:text-4xl text-brand-red font-bold text-center mb-8 md:mb-12">
-        ONE AI. Discover what to make, then make that <span className="font-normal text-black">at scale for any individual, anywhere, any time.</span>
+        ONE AI. Discover what to make, then make that <br className="hidden md:block" />
+        <span className="font-normal text-black">at scale for any individual, anywhere, any time.</span>
       </h2>
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-0 flex-grow w-full h-full min-h-[500px] shadow-2xl rounded-2xl overflow-hidden">
@@ -337,14 +338,14 @@ const DiscoverDesignInstructSlide = () => (
             <p className="text-sm md:text-lg mb-4 text-right text-gray-400">robots to produce overnight using minimal resources</p>
           </div>
           <div className="absolute inset-0 opacity-30 group-hover:opacity-50 transition-opacity duration-700">
-             <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80" alt="Advanced Manufacturing" className="object-cover w-full h-full grayscale" />
+             <img src="/attached_assets/stock_images/industrial_robot_arm_78298320.jpg" alt="Advanced Manufacturing" className="object-cover w-full h-full grayscale" />
           </div>
         </div>
       </div>
       
       <div className="mt-8 text-center pb-8 md:pb-0">
-        <h3 className="text-2xl md:text-3xl font-bold uppercase tracking-widest text-brand-dark">SELFWEAR™</h3>
-        <p className="text-lg md:text-xl text-gray-500">clothes that express you and not the other way around.</p>
+        <h3 className="text-4xl md:text-6xl font-bold uppercase tracking-widest text-brand-dark">SELFWEAR™</h3>
+        <p className="text-2xl md:text-3xl text-gray-500">clothes that express you and not the other way around.</p>
       </div>
     </div>
   </SlideWrapper>
