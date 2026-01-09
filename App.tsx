@@ -165,11 +165,11 @@ const RedProblemSlide = () => (
     <div className="max-w-6xl text-center space-y-8 md:space-y-16 py-8 relative z-10">
       <div className="space-y-4">
         <h2 className="text-xl md:text-4xl font-light opacity-90">
-            When dumb machines can make anything with AI,<br/>
+            When robots can make anything with AI,<br/>
             the fundamental question for a brand becomes:
         </h2>
         <h1 className="text-4xl md:text-8xl font-black tracking-tight leading-none drop-shadow-md">
-            What should we make, to sell?
+            What exactly should the brand offer?
         </h1>
       </div>
       
