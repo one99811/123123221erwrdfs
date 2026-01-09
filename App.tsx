@@ -632,6 +632,8 @@ const MarketOpportunitySlide = () => {
 
         if (isHovered) {
              return `${baseStyle} scale-110 shadow-2xl z-50`; // Pop out
+        } else if (isAnyHovered) {
+             return `${baseStyle} opacity-40 scale-95 blur-[1px]`; // Dim others
         }
         
         return baseStyle;
