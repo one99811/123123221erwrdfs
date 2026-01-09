@@ -899,7 +899,7 @@ const ContactSlide = () => (
                 </a>
             </div>
         </div>
-        <div className="absolute bottom-4 md:bottom-10 right-4 md:right-10 opacity-50 text-xs md:text-sm">© 2024 ONE AI</div>
+        <div className="absolute bottom-4 md:bottom-10 right-4 md:right-10 opacity-50 text-xs md:text-sm">© 2026 ONE AI</div>
     </SlideWrapper>
 );
 
