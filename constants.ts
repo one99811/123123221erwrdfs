@@ -11,7 +11,7 @@ export const REVENUE_DATA = [
 export const TEAM_MEMBERS = [
     {
         name: "William Lyons | Founder",
-        role: "Development",
+        role: "Founder & Head of Development",
         img: "/William.jpeg", // Generic: Coding/Tech
         linkedin: "https://www.linkedin.com/in/william-lyons-eekual/"
     },
@@ -23,7 +23,7 @@ export const TEAM_MEMBERS = [
     },
     {
         name: "Stephan Karmann",
-        role: "Production",
+        role: "Head of Production",
         img: "/Stephan.jpeg", // Generic: Machinery
         linkedin: "https://www.linkedin.com/in/stephan-karmann/"
     },
