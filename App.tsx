@@ -309,40 +309,46 @@ const DiscoverDesignInstructSlide = () => (
         ONE AI. Discover what to make, then make that <br className="hidden md:block" />
         <span className="font-normal text-black">at scale for any individual, anywhere, any time.</span>
       </h2>
-      
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-0 flex-grow w-full h-full min-h-[500px] shadow-2xl rounded-2xl overflow-hidden">
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 flex-grow w-full h-full min-h-[500px]">
         {/* Discover */}
-        <div className="flex flex-col relative border-b md:border-b-0 md:border-r border-gray-200 p-8 hover:bg-gray-50 transition-colors duration-500 min-h-[250px] md:min-h-auto group">
-          <div className="relative z-10">
-            <h3 className="text-2xl md:text-4xl font-bold mb-2 group-hover:translate-x-2 transition-transform">DISCOVER</h3>
-            <p className="text-sm md:text-lg mb-4 text-gray-600">desire, by empowering the individual to personalise product design</p>
-          </div>
-          <div className="absolute inset-0 opacity-20 group-hover:opacity-40 transition-opacity duration-700">
-             <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=800&q=80" alt="Fashion Sketches" className="object-cover w-full h-full grayscale" />
+        <div className="flex flex-col group">
+          <h3 className="text-2xl md:text-4xl font-bold mb-4 text-brand-dark group-hover:translate-x-2 transition-transform uppercase tracking-wider">DISCOVER</h3>
+          <div className="flex-grow flex flex-col relative shadow-2xl rounded-2xl overflow-hidden min-h-[250px] md:min-h-auto p-8 hover:bg-gray-50 transition-colors duration-500">
+            <div className="relative z-10">
+              <p className="text-lg md:text-2xl mb-4 text-gray-800 font-medium leading-relaxed">desire, by empowering the individual to personalise product design</p>
+            </div>
+            <div className="absolute inset-0 opacity-20 group-hover:opacity-40 transition-opacity duration-700">
+               <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=800&q=80" alt="Fashion Sketches" className="object-cover w-full h-full grayscale" />
+            </div>
           </div>
         </div>
         {/* Design */}
-        <div className="flex flex-col relative bg-gray-50 p-8 hover:bg-gray-100 transition-colors duration-500 min-h-[250px] md:min-h-auto group">
-            <div className="relative z-10 text-center">
-              <h3 className="text-2xl md:text-4xl font-bold mb-2 text-center group-hover:scale-110 transition-transform">DESIGN</h3>
-              <p className="text-sm md:text-lg mb-4 text-center text-gray-600">precisely to match the person's captured physique, style and purpose</p>
+        <div className="flex flex-col group">
+            <h3 className="text-2xl md:text-4xl font-bold mb-4 text-brand-dark text-center group-hover:scale-110 transition-transform uppercase tracking-wider">DESIGN</h3>
+            <div className="flex-grow flex flex-col relative shadow-2xl rounded-2xl overflow-hidden bg-gray-50 p-8 hover:bg-gray-100 transition-colors duration-500 min-h-[250px] md:min-h-auto">
+              <div className="relative z-10 text-center">
+                <p className="text-lg md:text-2xl mb-4 text-center text-gray-800 font-medium leading-relaxed">precisely to match the person's captured physique, style and purpose</p>
+              </div>
+              <div className="absolute inset-0 opacity-20 group-hover:opacity-40 transition-opacity duration-700">
+                 <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80" alt="3D Body Scan" className="object-cover w-full h-full grayscale" />
+              </div>
             </div>
-          <div className="absolute inset-0 opacity-20 group-hover:opacity-40 transition-opacity duration-700">
-             <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80" alt="3D Body Scan" className="object-cover w-full h-full grayscale" />
-          </div>
         </div>
         {/* Instruct */}
-        <div className="flex flex-col relative p-8 bg-brand-dark text-white hover:bg-black transition-colors duration-500 min-h-[250px] md:min-h-auto group">
-          <div className="relative z-10 text-right">
-            <h3 className="text-2xl md:text-4xl font-bold mb-2 text-right group-hover:-translate-x-2 transition-transform">INSTRUCT</h3>
-            <p className="text-sm md:text-lg mb-4 text-right text-gray-400">robots to produce overnight using minimal resources</p>
-          </div>
-          <div className="absolute inset-0 opacity-30 group-hover:opacity-50 transition-opacity duration-700">
-             <img src="https://images.unsplash.com/photo-1618294422395-a3209a18997c?q=80&w=2168&auto=format&fit=crop&w=800&q=80" alt="Advanced Manufacturing" className="object-cover w-full h-full grayscale" />
+        <div className="flex flex-col group">
+          <h3 className="text-2xl md:text-4xl font-bold mb-4 text-brand-dark text-right group-hover:-translate-x-2 transition-transform uppercase tracking-wider">INSTRUCT</h3>
+          <div className="flex-grow flex flex-col relative shadow-2xl rounded-2xl overflow-hidden p-8 bg-brand-dark text-white hover:bg-black transition-colors duration-500 min-h-[250px] md:min-h-auto">
+            <div className="relative z-10 text-right">
+              <p className="text-lg md:text-2xl mb-4 text-right text-gray-200 font-medium leading-relaxed">robots to produce overnight using minimal resources</p>
+            </div>
+            <div className="absolute inset-0 opacity-30 group-hover:opacity-50 transition-opacity duration-700">
+               <img src="/attached_assets/stock_images/industrial_robot_arm_78298320.jpg" alt="Advanced Manufacturing" className="object-cover w-full h-full grayscale" />
+            </div>
           </div>
         </div>
       </div>
-      
+
       <div className="mt-8 text-center pb-8 md:pb-0">
         <h3 className="text-4xl md:text-6xl font-bold uppercase tracking-widest text-brand-dark">SELFWEAR™</h3>
         <p className="text-2xl md:text-3xl text-gray-500">clothes that express you and not the other way around.</p>
@@ -362,25 +368,40 @@ const TransformationSlide = () => {
 
     return (
         <SlideWrapper id="benefits" className="bg-white p-6 md:p-16">
-            <div className="w-full max-w-6xl py-8">
-                 <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-16 text-center text-brand-dark">
+            <div className="w-full max-w-7xl py-8 flex flex-col gap-8 md:gap-16">
+                <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-16 text-center text-brand-dark">
                     Transformation from <span className="text-gray-300 line-through decoration-brand-red decoration-2">Push</span> to <span className="text-brand-red">Pull</span> Manufacturing
-                 </h2>
-                 <div className="grid gap-6">
-                     {items.map((item, idx) => (
-                         <div key={idx} className="flex flex-col md:grid md:grid-cols-12 items-center gap-2 md:gap-4 border-b border-gray-100 pb-4 group hover:bg-gray-50 transition-all duration-300 p-6 rounded-2xl hover:shadow-lg text-center md:text-left">
-                             <div className="w-full md:w-auto md:col-span-3 text-xl md:text-2xl font-bold md:text-right group-hover:text-brand-red transition-colors text-brand-dark">{item.title}</div>
-                             <div className="md:col-span-1 flex justify-center py-2 md:py-0">
-                                 {item.arrow === "up" ? (
-                                     <ArrowUp className="w-8 h-8 text-emerald-500 group-hover:scale-125 transition-transform" strokeWidth={3} />
-                                 ) : (
-                                     <ArrowDown className="w-8 h-8 text-emerald-500 group-hover:scale-125 transition-transform" strokeWidth={3} />
-                                 )}
-                             </div>
-                             <div className="md:col-span-8 text-lg md:text-xl text-gray-600 font-light">{item.desc}</div>
+                </h2>
+                <div className="flex flex-col md:flex-row gap-8 md:gap-16">
+                     {/* Main Content */}
+                     <div className="flex-grow">
+                         <div className="grid gap-6">
+                             {items.map((item, idx) => (
+                                 <div key={idx} className="flex flex-col md:grid md:grid-cols-12 items-center gap-2 md:gap-4 border-b border-gray-100 pb-4 group hover:bg-gray-50 transition-all duration-300 p-6 rounded-2xl hover:shadow-lg text-center md:text-left">
+                                     <div className="w-full md:w-auto md:col-span-3 text-xl md:text-2xl font-bold md:text-right group-hover:text-brand-red transition-colors text-brand-dark">{item.title}</div>
+                                     <div className="md:col-span-1 flex justify-center py-2 md:py-0">
+                                         {item.arrow === "up" ? (
+                                             <ArrowUp className="w-8 h-8 text-emerald-500 group-hover:scale-125 transition-transform" strokeWidth={3} />
+                                         ) : (
+                                             <ArrowDown className="w-8 h-8 text-emerald-500 group-hover:scale-125 transition-transform" strokeWidth={3} />
+                                         )
+                                         }
+                                     </div>
+                                     <div className="md:col-span-8 text-lg md:text-xl text-gray-600 font-light">{item.desc}</div>
+                                 </div>
+                             ))}
                          </div>
-                     ))}
-                 </div>
+                     </div>
+
+                     {/* Side Banner */}
+                     <div className="md:w-1/4 flex flex-col justify-center border-t md:border-t-0 md:border-l border-gray-100 pt-8 md:pt-0 md:pl-8">
+                        <h2 className="text-3xl md:text-5xl font-black text-brand-dark tracking-tighter mb-4 leading-tight">
+                            5X<br/>
+                            <span className="text-brand-red uppercase">More</span><br/>
+                            <span className="text-brand-red uppercase">Profitable</span>
+                        </h2>
+                     </div>
+                </div>
             </div>
         </SlideWrapper>
     );
@@ -870,9 +891,22 @@ const TeamSlide = () => (
                     >
                         <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden mb-4 md:mb-6 shadow-xl grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500 relative ring-4 ring-transparent group-hover:ring-brand-red/20">
                             <img src={member.img} alt={member.name} className="w-full h-full object-cover" />
+                            
+                            {/* LinkedIn Overlay */}
+                            <div className="absolute inset-0 bg-brand-red/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                <div className="bg-white p-2 rounded-full shadow-lg transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                                    <Linkedin size={20} className="text-[#0077b5]" />
+                                </div>
+                            </div>
+
+                            {/* Corner Icon */}
+                            <div className="absolute bottom-2 right-2 bg-white p-1.5 rounded-full shadow-md z-20">
+                                <Linkedin size={12} className="text-[#0077b5]" />
+                            </div>
                         </div>
                         <h3 className="text-sm md:text-xl font-bold group-hover:text-brand-red transition-colors">{member.name.split('|')[0].trim()}</h3>
-                        <p className="text-xs md:text-base text-gray-500 font-medium group-hover:text-brand-red group-hover:opacity-100 transition-colors mt-1">{member.role}</p>
+                        <p className="text-xs md:text-base text-gray-500 font-medium group-hover:text-brand-red transition-colors mt-1 mb-1">{member.role}</p>
+                        <span className="text-[10px] uppercase tracking-widest text-brand-red font-bold opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">View LinkedIn</span>
                     </a>
                 ))}
             </div>
